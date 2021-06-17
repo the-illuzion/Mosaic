@@ -1,0 +1,171 @@
+body{
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+canvas {
+  width: 80vw;
+  border: 10px solid;
+  border-image-source: linear-gradient(45deg,#6DD5FA,#fffbd5,#FAAC74,#FC466B);
+  border-image-slice: 1;
+}
+
+#cover {
+  background-color: black;
+  opacity: 30%;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+}
+
+#capture{
+  position: relative;
+  width: 40vh;
+  height: 40vh;
+}
+
+#pic {
+  position: relative;
+  top: 3vh;
+  width: 55vh;
+  height: auto;
+}
+
+
+
+
+.close_but {
+  float: right;
+  font-size: 18px;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border: 0px;
+  top: 10px;
+  right: 5px;
+}
+
+#pic {
+  top: 3vh;
+  position: relative;
+  border: 1vh solid white;
+  width: 40vh;
+  height: 40vh;
+}
+
+#video {
+  position: absolute;
+  width: 40vh;
+  height: 40vh;
+  object-fit: cover;
+}
+
+#canvas {
+  position: absolute;
+  width: 40vh;
+  height: 40vh;
+  object-fit: cover;
+}
+
+.but {
+  margin: 0px 10px;
+  font-size: 15px;
+  background-image: linear-gradient(45deg,#6DD5FA,#fffbd5,#FAAC74,#FC466B);
+  padding: 5px 50px;
+  color:#201F57;
+  font-weight: bold;
+  border-radius: 10px;
+
+}
+
+#img1{
+  width: 190px;
+  border: 3px solid #0e3a53;
+}
+
+#img2{
+  width: 220px;
+}
+
+.but1 {
+  margin: 0px 10px;
+  font-size: 15px;
+  background-image: linear-gradient(45deg,#6DD5FA,#fffbd5,#FAAC74,#FC466B);;
+  padding: 5px 50px;
+  color: #201F57;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.input {
+  width: 90%;
+  background-color:#ECA1B0;
+  color: #201F57 !important;
+  font-weight: bold;
+}
+
+.but2 {
+  background-color: transparent;
+  width: 40px;
+  height: 40px;
+}
+
+
+
+.box{
+  background-color: #D5D4D4;
+  color: #201F57 !important;
+  font-weight: bold !important;
+  //opacity: 90%;
+  border-radius:0px;
+  border: 7px solid;
+  border-image-source: linear-gradient(45deg,#6DD5FA,#fffbd5,#FAAC74,#FC466B);
+  border-image-slice: 1;
+ 
+}
+
+.box p{
+  font-size: 25px;
+  opacity: 100%;
+}
+
+
+.square{
+  width: 500px;
+  height: 500px;
+}
+
+.square1{
+  width: 400px;
+  height: 400px;
+}
+
+.pledge{
+  height: 80px;
+  margin-bottom:30px ;
+}
+
+.pledge div {
+  width: 85%;
+  
+  text-align: center;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.pledge1{
+  margin-top: 20px;
+  height: 160px;
+  font-size: 22px;
+  
+}
+
+.pledge1 div {
+  width: 85%;
+  
+  text-align: center;
+}
